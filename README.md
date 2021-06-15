@@ -11,3 +11,5 @@ Project source: https://www.theodinproject.com/paths/foundations/courses/foundat
 * Don't be fooled by the minimalist sleek UI.  There is great deal of work and attention that goes into it.
 Learned the hard way:)
 * I am no longer an HTML/CSS noob. 
+
+[Check out this live preview](https://nrey-w.github.io/google-homepage/)
