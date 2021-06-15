@@ -4,7 +4,6 @@ To deconstruct an existing Google web page and rebuilt it to make it **look** li
 Project source: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css
 
 <br />
----
 
 
 # What did I learn
