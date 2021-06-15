@@ -4,14 +4,29 @@ body{
     font-size: 15px;   
 }
 
+#navigation{
+    position:  absolute;  
+    width: 100%;
+}
+
+#logo{
+    position:  absolute;
+    left: 50%;
+    top:  33%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 #q{
     position:  absolute;
     text-align: center;
     left: 50%;
-    top:  45%;
+    top:  43%;
     transform: translate(-50%, -50%);
     width: 600px;
-    height: 45px;
+    height: 44px;
     border: 2px solid rgba(231, 227, 227, 0.959);
     border-radius: 360px;
     -moz-border-radius: 360px;
@@ -28,10 +43,32 @@ body{
 #q:focus{
     outline-width: 0;
 }
-#navigation{
-    position:  absolute;  
-    width: 100%;
-  }
+
+#btn{
+    position:  absolute;
+    text-align: center;
+    display: inline-block;
+    left: 50%;
+    top:  50%;
+    transform: translate(-50%, -50%);
+    margin: 10px;
+
+}
+
+#btn button{
+    height: 30px;
+    margin: 10px;
+    background-color: rgba(231, 227, 227, 0.959) solid;
+    border: 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#btn button:hover{
+    outline: auto lightgray;
+    outline-style: round;
+}
 
 #footer{
     position:  absolute;
@@ -44,15 +81,6 @@ body{
     border-top-color:rgba(20, 18, 18, 0.062);
 }
 
-#logo{
-    position:  absolute;
-    left: 50%;
-    top:  33%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
 
 a{
     margin: 5px;
@@ -77,30 +105,4 @@ a:hover{
     text-align: right;
     float: right;
     margin: 5px;
-}
-
-#btn{
-    position:  absolute;
-    text-align: center;
-    display: inline-block;
-    left: 50%;
-    top:  54%;
-    transform: translate(-50%, -50%);
-    margin: 10px;
-
-}
-
-#btn button{
-    height: 30px;
-    margin: 10px;
-    background-color: rgba(231, 227, 227, 0.959) solid;
-    border: 0;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-}
-
-#btn button:hover{
-    outline: auto lightgray;
-    outline-style: round;
 }
