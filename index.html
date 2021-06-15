@@ -2,23 +2,35 @@
 <html>
 <head>
     <title>Google</title>
+    <meta charset="utf-8">
 <link href="styles/reset.css" rel="stylesheet">
 <link href="styles/main.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 
-<nav>
-
+<nav id="navigation">
+    <a id="login" class="right" href="">Login</a>
+    <a id="images" class="right" href="">Images</a>
+    <a id="gmail" class="right" href="">Gmail</a>
 </nav>
 <body>
     <img id="logo" src="images/google-logo.png" alt="Google logo: each letter is written in a different color">
     <form action= "https://google.com"  id="user">
-        <input type="text" id="q" >
-    </form>
+        <input id="q" type="text"  autofocus>
+    <div id="btn">
+        <button id="btn-search">Google Search</button>
+        <button id="btn-feeling-lucky">I'm Feeling Lucky</button>
+    </div>
+</form>
 </body>
 
-<footer>
-    <a href="">Privacy</a>
-    <a href="">Terms</a>
-    <a href="">Settings</a>
+<footer id="footer">
+    <a class="left" id="about" href="">About</a>
+    <a class="left" id="advertising" href="">Advertising</a>
+    <a class="left" id="business" href="">Business</a>
+    <a class="left" id="how" href="">How Search works</a>
+    <a class="right" id="settings" href="">Settings</a>
+    <a class="right"id="terms" href="">Terms</a>
+    <a class="right" id="privacy" href="">Privacy</a>
 </footer>
 </html>
