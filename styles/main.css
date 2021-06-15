@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+#q{
+    position:  absolute;
+    left: 50%;
+    top:  50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 600px;
+    height: 40px;
+    border-color: rgba(231, 227, 227, 0.699);
+    border-radius: 20px;
+    border-width: 1px;
+    
+}
+
+#q:hover{
+
+
+}
+
+#logo{
+    position:  absolute;
+    left: 50%;
+    top:  40%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
