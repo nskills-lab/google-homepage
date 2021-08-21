@@ -12,4 +12,4 @@ Project source: https://www.theodinproject.com/paths/foundations/courses/foundat
 Learned the hard way:)
 * I am no longer an HTML/CSS noob. 
 
-[Check out this live preview](https://nrey-w.github.io/google-homepage/)
+[Check out this live preview](https://nskills-lab.github.io/google-homepage/)
