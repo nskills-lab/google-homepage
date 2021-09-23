@@ -1,7 +1,6 @@
 # Goal
 
 To deconstruct an existing Google web page and rebuilt it to make it **look** like google.com.  
-Project source: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/html-css
 
 <br />
 
