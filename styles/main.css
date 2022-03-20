@@ -1,111 +1,113 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: hsl(0, 0%, 100%);
-    font-family: sans-serif;
-    font-size: 15px;
-    width: 100vw;
-    height: 100vh;
+  background-color: hsl(0, 0%, 100%);
+  font-family: sans-serif;
+  font-size: 15px;
+  width: 100vw;
+  height: 100vh;
 }
 
 #navigation {
-    position: absolute;
-    width: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 #logo {
-    position: absolute;
-    left: 50%;
-    top: 33%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  position: absolute;
+  left: 50%;
+  top: 33%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #q {
-    position: absolute;
-    text-align: center;
-    left: 50%;
-    top: 43%;
-    transform: translate(-50%, -50%);
-    width: 600px;
-    height: 44px;
-    border: 2px solid hsla(0, 0%, 75%, 0.5);
-    border-radius: 360px;
-    -moz-border-radius: 360px;
-    -webkit-border-radius: 360px;
-    background: white url("../images/search-icon.png") 3% no-repeat;
-    background-size: 20px;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 43%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 44px;
+  border: 2px solid hsla(0, 0%, 75%, 0.5);
+  border-radius: 360px;
+  border-width: thin;
+  -moz-border-radius: 360px;
+  -webkit-border-radius: 360px;
+  background: white url("../images/search-icon.png") 3% no-repeat;
+  background-size: 20px;
 }
 
 #q:hover {
-    transition: box-shadow 0.5s;
-    box-shadow: 4px 4px 4px hsla(0, 0%, 50%, 0.5);
+  transition: box-shadow 0.5s;
+  box-shadow: 4px 4px 4px hsla(0, 0%, 50%, 0.5);
+  outline: none;
 }
 
 #q:focus {
-    outline-width: 0;
+  outline-width: 0;
 }
 
 #btn {
-    position: absolute;
-    text-align: center;
-    display: inline-block;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    margin: 10px;
+  position: absolute;
+  text-align: center;
+  display: inline-block;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 10px;
 }
 
 #btn button {
-    height: 30px;
-    margin: 10px;
-    background-color: hsla(0, 0%, 75%, 0.5) solid;
-    border: 0;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+  height: 30px;
+  margin: 10px;
+  background-color: hsla(0, 0%, 75%, 0.5) solid;
+  border: 0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
 }
 
 #btn button:hover {
-    outline: auto lightgray;
-    outline-style: round;
+  outline: auto lightgray;
+  outline-style: round;
 }
 
 #footer {
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    bottom: 0px;
-    background-color: hsla(0, 0%, 75%, 0.5);
-    border-top-width: 1px;
-    border-top-style: solid;
-    border-top-color: hsla(0, 0%, 85%, 0.5);
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+  background-color: hsla(0, 0%, 75%, 0.5);
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: hsla(0, 0%, 85%, 0.5);
 }
 
 a {
-    margin: 5px;
-    margin-top: 5px;
-    color: hsla(0, 0%, 10%, 0.7);
-    text-decoration: none;
-    padding: 15px;
+  margin: 5px;
+  margin-top: 5px;
+  color: hsla(0, 0%, 10%, 0.7);
+  text-decoration: none;
+  padding: 15px;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .left {
-    text-align: left;
-    float: left;
-    margin: 5px;
+  text-align: left;
+  float: left;
+  margin: 5px;
 }
 
 .right {
-    text-align: right;
-    float: right;
-    margin: 5px;
+  text-align: right;
+  float: right;
+  margin: 5px;
 }
